@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //这个第三方库生效的话，需要安装XcodeColor插件，否则无效
         QorumLogs.enabled = true
         QorumOnlineLogs.enabled = true
         QorumLogs.minimumLogLevelShown = 2
