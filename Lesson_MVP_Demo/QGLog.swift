@@ -5,7 +5,7 @@
 //  Created by 朱佩 on 16/5/24.
 //  Copyright © 2016年 Andy zhu. All rights reserved.
 //
-/***
+
 import Foundation
 // 带颜色输出
 struct ColorLog {
@@ -79,5 +79,4 @@ struct ColorLog {
     }
 }
  
- **/
 
